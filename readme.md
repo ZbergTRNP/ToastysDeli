@@ -12,7 +12,7 @@ The only thing you should need to get started with this project is a web browser
 ## Built With
 
   - [HTML](https://html.spec.whatwg.org/multipage/) - Used for x
-  - [CSS](https://www.w3.org) - Used to x
+  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used to x
   - [JavaScript](https://www.javascript.com) - Used for x
     
 ## Acknowledgments
