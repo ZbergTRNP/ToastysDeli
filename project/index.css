@@ -1,24 +1,30 @@
 nav {
-	display: block;
-	font-size: 34px;
-	border-radius: 10px;
+    display: block;
+    font-size: 34px;
+    border-radius: 10px;
 }
 
 li {
-	display: inline;
+    display: inline;
 }
 
 li a {
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #303B45;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #303b45;
 }
 
+img {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
