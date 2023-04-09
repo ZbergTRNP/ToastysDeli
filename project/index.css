@@ -1,7 +1,7 @@
 nav {
     display: block;
     font-size: 34px;
-    border-radius: 10px;
+    border-radius: 110px;
 }
 
 li {
@@ -28,3 +28,24 @@ img {
     float: left;
     margin-right: 5px;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .order-btn {
+    background-color: #303b45;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #303b45;
+  }
