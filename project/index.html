@@ -3,15 +3,14 @@
 
 <head>
 	<meta charset=" utf-8">
-	<title> Main Page </title>
+	<title>Toasty's Deli</title>
 	<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
 	<header>
 		<img src="images/icon.png" alt="sandwich icon">
-		<h1><strong>ToastysDeli</strong></h1>
+		<h1><strong>Toasty's Deli</strong></h1>
 		<!-- nav links to other webpages in the site -->
 		<nav>
 			<ul>
@@ -21,34 +20,48 @@
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
-
+		<hr>
 		<div id="grid-container">
-			<h2>Order Online whenever you're ready. We sure are.</h2>
+			<h2 style="text-align:center;">Order Online Whenever You're Ready. We Sure Are.</h2>
 
 			<div id="order-now">
+				<!-- Order Button -->
 
-				<p><button type="button" id="order-button" onclick="window.location.href='order.html';">Order
-						Now</button></p>
-
+				<p>
+					<div class="button-container">
+						<button class="order-btn">Order Now</button>
+					  </div>
+				</p>
+				<hr>
 			</div>
-
+			<!-- Homepage Advertisements -->
 			<div>
-				<h2>Try our new sandwich</h2>
-
-
-
+				<h2 style="text-align:center;">Try Our New Sandwich!</h2>
 			</div>
-
-			<div>
-				<h2>Check our social medias</h2>
-
-
-
-			</div>
-
 		</div>
-
+		<!-- Footer for Social Media and Copyright Statement -->
+		<hr>
+		<footer>
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-3">
+				<h2 style="text-align:center;">Find Us On Our Social Media Pages!</h2>
+				  <ul class="list-unstyled">
+					<li><i class="fa fa-facebook"></i> <a href="#">Facebook</a></li>
+					<li><i class="fa fa-twitter"></i> <a href="#">Twitter</a></li>
+					<li><i class="fa fa-instagram"></i> <a href="#">Instagram</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <hr>
+			  <div class="row">
+				<div class="col-md-12">
+				  <p class="text-center">&copy; 2023 Toasty's Deli. All Rights Reserved.</p>
+				</div>
+			  </div>
+			</div>
+		  </footer>
 </body>
-
-
 </html>
+
+
