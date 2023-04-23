@@ -4,7 +4,7 @@
 <head>
 	<meta charset=" utf-8">
 	<title>Order</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="Order.css">
 	<script type="text/javascript" src="sandwichShop.js"></script>
 	<!-- Head Section for Favicon (realfavicongenerator.net) -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -25,18 +25,18 @@
 		<h1><strong>ToastysDeli</strong></h1>
 		<nav>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="order.html">Order</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li class="navbar"><a href="index.html">Home</a></li>
+				<li class="navbar"><a href="order.html">Order</a></li>
+				<li class="navbar"><a href="about.html">About Us</a></li>
+				<li class="navbar"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	<ol id="menu">
 		<ol>
 			<script>
-				let sandy = new menuItem("sandy", 5, "fullofsand");
-				sandy.display();
+				let TurkeySandwich = new menuItem("TurkeySandwich", 5, "Turkey....");
+				TurkeySandwich.display();
 				let gravy = new menuItem("gravy", 5, "fullofgravy");
 				gravy.display();
 			</script>
