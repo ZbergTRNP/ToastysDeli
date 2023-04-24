@@ -3,7 +3,7 @@
 <img src="https://freepngimg.com/thumb/sandwich/159788-cheese-sandwich-toasted-free-clipart-hd.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="350" height="200">
 
-Toasty's Deli is a small project made by Jonathan Garcia, Alex Hightower, Zach Bergstrom, and [INSERT CHAMOY]. It is a small, though feature rich website made with our knowledge of HTML, CSS, and JavaScript.
+Toasty's Deli is a small project made by Jonathan Garcia, Alex Hightower, Zach Bergstrom, and Erick Solis. It is a small, though feature rich website made with our knowledge of HTML, CSS, and JavaScript.
 
 ## Getting Started
 
