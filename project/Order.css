@@ -4,8 +4,16 @@ nav {
     border-radius: 110px;
 }
 
+.grid-container {
+	display: inline-grid;
+	grid-template-columns: 50% 50%;
+	padding: 10px;
+}
+
 .menuItem {
-    padding: 50px;
+    padding: 10px;
+	border: 1px solid black;
+	
 }
 
 .navbar {
@@ -27,12 +35,12 @@ ul {
     background-color: #303b45;
 }
 
-ol  {
-	
-}
 img {
-	max-width: 15%;
+	max-width: 20%;
 	height: auto;
+	position: relative;
+	float: left;
+	padding: 1%;
 }
 .icon-image img {
     width: 35px;

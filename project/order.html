@@ -32,14 +32,20 @@
 			</ul>
 		</nav>
 	</header>
-	<ol id="menu">
-		<ol>
+	<div class="grid-container" id="menu">
 			<script>
-				let TurkeySandwich = new menuItem("TurkeySandwich", 5, "Turkey....");
+				let TurkeySandwich = new menuItem("Turkey Sandwich", 5, "A classic sandwich built with turkey, mayo, tomato, avocado, and your choice of white or wheat bread.");
 				TurkeySandwich.display();
-				let gravy = new menuItem("gravy", 5, "fullofgravy");
-				gravy.display();
+				let ez = new menuItem("ez", 99, "ggnore");
+				ez.display();
+				let ezr = new menuItem("ezr", 98, "ggnorekek");
+				ezr.display();
 			</script>
+	</div>
+	<input type="button" value="Find Subtotal" onClick="findSubtotal()">
+    <input type="reset" label for="reset" value="Reset" onClick="resetTotal()">
+	
+	<div id="total"></div>
 </body>
 
 </html>
