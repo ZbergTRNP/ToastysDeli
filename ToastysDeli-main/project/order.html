@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=" utf-8">
+	<title>Order</title>
+	<link rel="stylesheet" href="Order.css">
+	<script type="text/javascript" src="sandwichShop.js"></script>
+	<!-- Head Section for Favicon (realfavicongenerator.net) -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/images/site.webmanifest">
+	<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+	<header>
+		<div class="icon-image">
+			<img src="images/icon.png" alt="sandwich icon">
+		</div>
+		<h1><strong>ToastysDeli</strong></h1>
+		<nav>
+			<ul>
+				<li class="navbar"><a href="index.html">Home</a></li>
+				<li class="navbar"><a href="order.html">Order</a></li>
+				<li class="navbar"><a href="about.html">About Us</a></li>
+				<li class="navbar"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+<div class="Cart-Items">
+ <p>Turkey Sandwich</p>
+ <img src="images\turkey.webp" alt="Turkey Sanwich">
+
+ <div class="prices"></div>
+ <div class="counter" id="counter">
+ <button class="btn" onclick="Tadd()">+</button>
+ <div class="count" id="Tcount">0</div>
+ <button class="btn" onclick="Tsub()">-</button>
+ </div>
+ </div>
+ 
+ <div class="Cart-Items"
+ <p>Ham Sandwich</p>
+ <img src="images\turkey.webp" alt="Turkey Sanwich">
+ 
+ <div class="prices"></div>
+ <div class="counter" id="counter">
+ <button class="btn" onclick="Hadd()">+</button>
+ <div class="count" id="Hcount">0</div>
+ <button class="btn" onclick="Hsub()">-</button>
+ </div>
+ </div>
+ 
+ <div class="Cart-Items"
+ <p>Tuna Sandwich</p>
+ <img src="images\turkey.webp" alt="Turkey Sanwich">
+
+ <div class="prices"></div>
+ <div class="counter" id="counter">
+ <button class="btn" onclick="Tuadd()">+</button>
+ <div class="count" id="Tucount">0</div>
+ <button class="btn" onclick="Tusub()">-</button>
+ </div>
+ </div>
+ 
+<script>
+	
+	function Tadd() {
+		
+		let count = document.getElementById("Tcount");
+		temp = Number(count.textContent);
+		count.textContent = temp + 1;
+	}
+	
+	function Tsub() {
+		let count = document.getElementById("Tcount");
+		temp = Number(count.textContent);
+		count.textContent = temp - 1;
+	}
+	
+	function Hadd() {
+		
+		let count = document.getElementById("Hcount");
+		temp = Number(count.textContent);
+		count.textContent = temp + 1;
+	}
+	
+	function Hsub() {
+		let count = document.getElementById("Hcount");
+		temp = Number(count.textContent);
+		count.textContent = temp - 1;
+	}
+	function Tuadd() {
+		
+		let count = document.getElementById("Tucount");
+		temp = Number(count.textContent);
+		count.textContent = temp + 1;
+	}
+	
+	function Tusub() {
+		let count = document.getElementById("Tucount");
+		temp = Number(count.textContent);
+		count.textContent = temp - 1;
+	}
+	
+	
+</script>
+ 
+
+	
+</body>
+
+</html>
