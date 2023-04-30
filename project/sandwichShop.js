@@ -23,6 +23,7 @@ function menuItem(name, price, desc)  {
 		
 		let listNodeImage = document.createElement("img");
 		listNodeImage.className = this.name;
+
 		
 		listNodeImage.src = "images/" + this.name.replace(/\s+/g, '') + ".jpeg";
 		

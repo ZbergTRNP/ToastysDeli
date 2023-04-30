@@ -34,12 +34,18 @@
 	</header>
 	<div class="grid-container" id="menu">
 			<script>
-				let TurkeySandwich = new menuItem("Turkey Sandwich", 5, "A classic sandwich built with turkey, mayo, tomato, avocado, and your choice of white or wheat bread.");
+				let TurkeySandwich = new menuItem("Turkey Sandwich", 9.99, "A classic sandwich built with turkey, mayo, tomato, avocado, and your choice of white or wheat bread.");
 				TurkeySandwich.display();
-				let ez = new menuItem("ez", 99, "ggnore");
-				ez.display();
-				let ezr = new menuItem("ezr", 98, "ggnorekek");
-				ezr.display();
+				let BLT = new menuItem("BLT", 9.99, "Bacon, lettuce, tomato, as the acronym implies.");
+				BLT.display();
+				let OpenFacedAvocadoToast = new menuItem("Open Faced Avocado Toast", 8.99, "Toast with avocado spread, eggs, raddish, and cheese.");
+				OpenFacedAvocadoToast.display();
+				let TunaMelt = new menuItem("Tuna Melt", 8.99, "Tuna on baked bread with melted cheese.");
+				TunaMelt.display();
+				let VegetarianEnglishMuffin = new menuItem("Vegetarian English Muffin", 8.99, "English muffin with vegetarian friendly ingredients.");
+				VegetarianEnglishMuffin.display();
+				let PBJ = new menuItem("PBJ", 5.99, "A delightful PB & J on warm bread. Perfect for kids.");
+				PBJ.display();
 			</script>
 	</div>
 	<input type="button" value="Find Subtotal" onClick="findSubtotal()">
