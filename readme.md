@@ -11,12 +11,11 @@ The only thing you should need to get started with this project is a web browser
 
 ## Built With
 
-  - [HTML](https://html.spec.whatwg.org/multipage/) - Used for x
-  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used to x
-  - [JavaScript](https://www.javascript.com) - Used for x
+  - [HTML](https://html.spec.whatwg.org/multipage/) - Used as the base for the site.
+  - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used to format the site.
+  - [JavaScript](https://www.javascript.com) - Used for forms and ordering.
     
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - Pexels.com
+  - Pictures used, distributed on Pexels by: Geraud Pfeiffer, Jesus Cabrera, Rajdeepcraft, and Rodnae Productions.
