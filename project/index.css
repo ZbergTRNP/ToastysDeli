@@ -165,6 +165,10 @@ section {
   margin-bottom: 20px;
   
 }
+.section-header p {
+  padding-left: 180px;
+  padding-right: 180px;
+}
 
 .section-header h2::after {
   content: "";
